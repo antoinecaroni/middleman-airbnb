@@ -3,23 +3,20 @@
   padding: 20px;
   text-align: center;
   justify-content: space-between;
-  background-color: #EDEBEF;
-}
-
-.footer-links {
-  display: flex;
-}
-
-.footer-links a {
-  padding: 0px 10px;
-  color: grey;
-  opacity: 0.3;
-  &:hover {
-    opacity: 0.9;
+  background-color: $verylight-gray;
+  &.footer-links {
+    display: flex;
   }
-}
-
-.footer-copyright {
-  color: grey;
-  font-size: 15px;
+  a {
+    padding: 0px 10px;
+    color: gray;
+    opacity: 0.3;
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+  &.footer-copyright {
+    color: gray;
+    font-size: 15px;
+  }
 }
