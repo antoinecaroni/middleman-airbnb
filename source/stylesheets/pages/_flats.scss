@@ -1,0 +1,35 @@
+.container-dyn {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  &img-circle {
+    width: 15px;
+    height: 15px;
+  }
+  p {
+    color: grey;
+    font-size: 14px;
+  }
+  &form {
+    width: 50%;
+  }
+}
+
+.flat-owner {
+  padding-top: 20px;
+}
+
+.flat-name {
+  margin-top: 0;
+  h1 {
+    font-size: 18px;
+  }
+}
+
+form .btn-primary {
+  width: 100%;
+  margin-top: 15px;
+}
