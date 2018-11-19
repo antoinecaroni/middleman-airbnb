@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  justify-content: space-between;
+  background-color: #EDEBEF;
+}
+
+.footer-links {
+  display: flex;
+}
+
+.footer-links a {
+  padding: 0px 10px;
+  color: grey;
+  opacity: 0.3;
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.footer-copyright {
+  color: grey;
+  font-size: 15px;
+}
